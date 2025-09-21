@@ -8,6 +8,7 @@
 // mod traits;
 mod error_handling;
 mod unit_test;
+extern crate rust_lib_learn;
 
 fn main() {
     // println!("Hello, world!");
@@ -22,4 +23,6 @@ fn main() {
     // enums::run();
     // traits::run();
     error_handling::run();
+    let rnd_num = rust_lib_learn::print_random_number();
+    println!("Random number from rust_lib_learn: {}", rnd_num);
 }

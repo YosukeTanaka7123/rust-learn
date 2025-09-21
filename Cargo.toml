@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rust-lib-learn = {git = "https://github.com/YosukeTanaka7123/rust-lib-learn"}
